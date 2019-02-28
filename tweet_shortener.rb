@@ -20,7 +20,7 @@ def dictionary
     "You" => "u",
     "at" => "@",
     "At" => "@",
-    "and" => "&"
+    "and" => "&",
     "And" => "&"
   }
 end
