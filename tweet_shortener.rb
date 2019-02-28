@@ -19,7 +19,7 @@ def word_substituter(tweet)
   tweet_array = tweet.split
   keys_array = dictionary.keys
   counter = 0
-  binding.pry
+
   while counter < keys_array.length
   
     tweet_array.each do |word|
