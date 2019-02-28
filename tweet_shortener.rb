@@ -3,15 +3,25 @@ require "pry"
 def dictionary
   {
     "hello" => "hi",
+    "Hello" => "hi",
     "to" => "2",
+    "To" => "2",
     "two" => "2",
+    "Two" => "2",
     "too" => "2",
+    "Too" => "2",
     "for" => "4",
+    "For" => "4",
     "four" => "4",
+    "Four" => "4",
     "be" => "b",
+    "Be" => "b",
     "you" => "u",
+    "You" => "u",
     "at" => "@",
+    "At" => "@",
     "and" => "&"
+    "And" => "&"
   }
 end
 
