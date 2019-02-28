@@ -22,7 +22,7 @@ def word_substituter(tweet)
   
   while counter < keys_array.length
   
-    tweet_array.each do |word|
+    tweet_array.collect do |word|
       if word == keys_array[counter]
         word = dictionary[keys_array[counter]]
       else
