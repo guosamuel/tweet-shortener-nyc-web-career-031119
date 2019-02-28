@@ -21,10 +21,10 @@ def word_substituter(tweet)
   counter = 0
 
   while counter < keys_array.length
-  binding.pry
     tweet_array.each do |word|
       if word == keys_array[counter]
         tweet_array[word.index] = dictionary[keys_array[counter]]
+        binding,pry
       end
     end
     counter += 1
