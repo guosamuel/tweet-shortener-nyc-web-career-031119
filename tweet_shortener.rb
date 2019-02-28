@@ -30,4 +30,5 @@ def word_substituter(tweet)
     counter += 1
   end
   tweet_array.join(" ")
+  binding.pry
 end
